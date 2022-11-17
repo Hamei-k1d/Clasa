@@ -1,0 +1,17 @@
+p{
+    color: rgb(236, 16, 16);
+
+}
+div{
+    color: chocolate;
+}
+#primulp{
+    color: rgb(0, 255, 0);
+}
+.pblue{
+    color: blue;
+}
+.pfont{
+    font-size: 35px;
+    color:coral }
+/* o sa se ia ultima prioritate */
