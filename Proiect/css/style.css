@@ -226,6 +226,11 @@ html{
   }
   
   /* MAIN */
+  #main{
+width: 100%;
+max-width: 1000px;
+
+  }
   #site_content{ 
     width: 100%;
     max-width: 1000px;

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 2px red solid;
+            border-collapse: collapse;
+        }
+        table tr:first-child{
+            background-color: aqua;
+            color: darkgreen;
+        }
+        table tr td,table tr th{
+            border: 1px blue solid;
+            padding: 40px;
+        }
+        table tr:nth-child(2n){
+            color: rgb(244, 248, 11);
+            background-color: blueviolet;
+        }
+        table tr:nth-child(2n+1){
+            color: crimson;
+            background-color: chartreuse;  
+        }
+        table tr:first-child{
+            background-color: aqua;
+            color: darkgreen;
+        }
+        table tr:last-child{
+            background-color: yellowgreen; color: springgreen;
+        }
+        table tr:hover {background-color: aliceblue; color: gold;}
+
+    </style>
+</head>
+<body>
+    <h1>Primul meu tabel</h1>
+    <table>
+        <tr>
+            <th>Nume </th>
+            <th>Prenume</th>
+            <th>Telefon</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Ion</td>
+            <td>Betivu</td>
+            <td>032323425</td>
+            <td>aoloo@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>Floricica</td>
+            <td>Dansatoarea</td>
+            <td>076655443</td>
+            <td>floricicavtm@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Ion</td>
+            <td>Betivu</td>
+            <td>032323425</td>
+            <td>aoloo@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>Floricica</td>
+            <td>Dansatoarea</td>
+            <td>076655443</td>
+            <td>floricicavtm@gmail.com</td>
+        </tr>
+    </table>
+</body>
+</html>
