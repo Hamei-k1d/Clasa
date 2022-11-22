@@ -1,16 +1,34 @@
+div{
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+}
 div img{
     width: 100%;
-    max-width: 600px;}
+    max-width: 600px;
+    height: 600px;
+
+}
 @media (max-width:576px) {
     /* mobil */
     .Laptop,.Tableta {display:none}
-
+.Mobil{
+    background-image: url("../images/bere-nastro-azzurro-066_8610_1_16609128009149.jpeg");
+    background-size: cover;
+}
 }
 @media (min-width:577px) and (max-width:768px){
     /* tableta */
     .Mobil, .Laptop{display: none;}
+    .Tableta{background-image: url("../images/Bere-Sara-blonda-scaled.jpeg");
+    background-size: cover
+    ;}
+    
 }
 @media (min-width:769px) {
     /* laptop */
 .Mobil,.Tableta{display: none;}
+.Laptop{
+    background-image: url("../images/bere-nastro-azzurro-066_8610_1_16609128009149.jpeg");
+}
 }
