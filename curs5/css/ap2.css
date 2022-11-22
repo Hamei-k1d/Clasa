@@ -1,0 +1,16 @@
+div img{
+    width: 100%;
+    max-width: 600px;}
+@media (max-width:576px) {
+    /* mobil */
+    .Laptop,.Tableta {display:none}
+
+}
+@media (min-width:577px) and (max-width:768px){
+    /* tableta */
+    .Mobil, .Laptop{display: none;}
+}
+@media (min-width:769px) {
+    /* laptop */
+.Mobil,.Tableta{display: none;}
+}
