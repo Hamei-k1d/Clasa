@@ -1,0 +1,8 @@
+/* linia de la formular */
+h1{border-bottom: 2px solid blue;} 
+div{width: 400px;margin:auto}
+
+label{display: inline-block;;text-align: right;}
+input{padding: 15px 5px;
+      margin: auto;}
+   
