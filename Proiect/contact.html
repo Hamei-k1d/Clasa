@@ -1,45 +1,103 @@
 <!DOCTYPE html>
 <html lang="ro">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML CSS Proiect 2022 - 2023</title>
-    <meta name="description" content="Proiect demo de la cursul de HTML CSS " />
-    <meta name="keywords" content="website, site, CSS, HTML, proeict" />
-    <meta name="author" content="LinkAcademy">
-    <!-- Favicon-->
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
-    <link rel='icon' type='image/x-icon' href='./assets/images/favicon.ico'/>
-    <!-- CSS  -->
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-  </head>
 
-  <body>
-    <div id="header">
-      <div id="logo">
-        <div id="logo_text">
-          <h1><a href="acasa.html">Coffe<span class="logo_colour">Shop</span></a></h1>
-          <h2>Primul meu proiect.</h2>
-        </div>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML CSS Proiect 2022 - 2023</title>
+  <meta name="description" content="Proiect demo de la cursul de HTML CSS " />
+  <meta name="keywords" content="website, site, CSS, HTML, proeict" />
+  <meta name="author" content="LinkAcademy">
+  <!-- Favicon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+  <link rel='icon' type='image/x-icon' href='./assets/images/favicon.ico' />
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="header">
+    <div id="logo">
+      <div id="logo_text">
+        <h1><a href="acasa.html">Coffe<span class="logo_colour">Shop</span></a></h1>
+        <h2>Primul meu proiect.</h2>
       </div>
-      <nav id="menubar">
-        <ul id="menu">
-          <li ><a href="acasa.html">Acasa</a></li>
-          <li><a href="despre.html">Despre noi</a></li>
-          <li><a href="portofoliu.html">Portofoliu</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="selected"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
     </div>
-    <div id="main">
-    </div>
-    <div>Contact</div>
-    <div id="footer">
-      <p><a href="acasa.html">Home</a> | <a href="contact.html">Contact</a></p>
-      <p>Copyright &copy; HopBeauBere | <a href="">HTML5</a> | <a href="">CSS</a> </p>
-    </div>
-  </body>
+    <nav id="menubar">
+      <ul id="menu">
+        <li><a href="acasa.html">Acasa</a></li>
+        <li><a href="despre.html">Despre noi</a></li>
+        <li><a href="portofoliu.html">Portofoliu</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li class="selected"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div>
+    <form action="" method="post">
+    <fieldset>
+      <legend>Card</legend>
+      <label for="card">Numar card</label>
+      <input type="text" name="card" id="card" maxlength="16" required> <br>
+      <label for="data">Data Expirare</label>
+      <input type="date" name="data" id="data">
+    </fieldset>
+    <fieldset>
+      <legend>Livrare</legend>
+      <label for="prenume">Prenume</label>
+      <input type="text" name="prenume" placeholder="Introduceti prenumele" id="prenume" required> <br>
+      <label for="nume">Nume</label>
+      <input type="text" name="nume" id="nume" placeholder="Introduceti numele" required> <br>
+      <label for="companie">Companie</label>
+      <input type="text" name="companie" id="companie" placeholder="Introduceti numele companiei" required> <br>
+      <label for="adresa">Adresa</label>
+      <input type="text" name="adresa" id="adresa" placeholder="Introduceti adresa" required> <br>
+      <label for="oras">Oras</label>
+      <input type="text" name="oras" id="oras" placeholder="Introduceti numele orasului" required> <br>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Introduceti email-ul" required> <br>
+      <label for="telefon">Telefon</label>
+      <input type="tel" name="telefon" id="telefon" placeholder="Numar telefon" required> <br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Adauga Produsele</legend>
+      <label for="masina">Masina</label>
+      <select name="masini" id="masini">
+        <option value="">Tesla</option>
+        <option value="">Dacia</option>
+        <option value="">BMW</option>
+      </select> <br>
+      <label for="mesaj">Mesaj</label>
+      <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea> <br>
+      <label for="optionale">Optionale</label>
+      <input type="checkbox" name="senzori" id="">Senzori
+      <input type="checkbox" name="camera">Camera
+      <br>
+      <label for="culoare">Culoare</label> <br>
+      <input type="radio" name="culoare" id="">Negru mat <br>
+      <input type="radio" name="culoare" id="">Rosie <br>
+      <input type="radio" name="culoare" id="">Alba <br>
+      <input type="radio" name="culoare" id="">Galbena <br>
+    </fieldset>
+    <input type="submit" value="Trimite datele">
+  </form>
+<h1>Adresa de contact</h1>
+<p>Aceasta este adresa mea</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2851.567053803575!2d26.182874515521526!3d44.38048017910313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1fdb097e2904d%3A0x74c2073ff21819c5!2sStrada%20Leordeni%20159%2C%20Pope%C8%99ti-Leordeni%20077160!5e0!3m2!1sro!2sro!4v1669739341591!5m2!1sro!2sro" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div id="main">
+  </div>
+  <div id="footer">
+    <p><a href="acasa.html">Home</a> | <a href="contact.html">Contact</a></p>
+    <p>Copyright &copy; K1d | <a href="">HTML5</a> | <a href="">CSS</a> </p>
+  </div>
+</body>
+
 </html>
