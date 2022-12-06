@@ -1,0 +1,19 @@
+div{
+    
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+body{
+    background: rgb(34,193,195);
+}
+input{
+    
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+}
+input:valid,textarea:valid{border-color: rgb(54, 15, 249);}
+input:invalid,textarea:invalid{border-color: deeppink;}
